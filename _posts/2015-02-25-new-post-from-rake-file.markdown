@@ -2,7 +2,8 @@
 layout: post
 title: New post from rake file
 published: true
-categories:
+date:  2015-02-25 01:13:50
+categories: jekyll
 ---
 
 I added a simple rake task to create a new post. First I tried [this plugin](https://github.com/jekyll/jekyll-compose) but this seems only work with Jkyll 3.0 Beta.
@@ -27,6 +28,7 @@ task :post do
 ---
 layout: post
 title: #{title}
+date: #{Date.today.strftime(%Y-%m-%d %H:%M:%S)}
 published: true
 categories:
 ---

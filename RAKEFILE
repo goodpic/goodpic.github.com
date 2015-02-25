@@ -16,6 +16,7 @@ task :post do
 ---
 layout: post
 title: #{title}
+date: #{Date.today.strftime(%Y-%m-%d %H:%M:%S)}
 published: true
 categories:
 ---

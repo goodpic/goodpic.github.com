@@ -2,6 +2,7 @@
 layout: post
 title: Open GUI Emacs to create a new post for jekyll
 published: true
+date:  2015-02-25 23:13:50
 categories: jekyll
 ---
 
